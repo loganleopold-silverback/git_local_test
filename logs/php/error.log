@@ -1,0 +1,65 @@
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.5","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"2.3","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.2","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"Force Strong Passwords - WPE Edition","slug":"slt-force-strong-passwords.php","ver":"1.6.4","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Seamless Login Plugin","slug":"wpe-wp-sign-on-plugin.php","ver":"1.5.4","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Security Auditor","slug":"wpengine-security-auditor.php","ver":"1.0.9","sig":"v1:nohash"}
+[01-Jun-2020 20:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_plugins() in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php:439
+Stack trace:
+#0 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(287): WPEngineSecurityAuditor_Scans->fingerprint_plugins()
+#1 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
+#4 {main}
+  thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[01-Jun-2020 20:20:34 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.4.1","sig":"v1:nohash"}
+[01-Jun-2020 20:20:34 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.4.1","sig":"v1:nohash"}
+[01-Jun-2020 21:12:08 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.4.1","sig":"v1:nohash"}
+[01-Jun-2020 21:12:08 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.4.1","sig":"v1:nohash"}
+[04-Jun-2020 19:45:42 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"Force Strong Passwords - WPE Edition","slug":"slt-force-strong-passwords.php","ver":"1.6.4","sig":"v1:nohash"}
+[04-Jun-2020 19:45:42 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Seamless Login Plugin","slug":"wpe-wp-sign-on-plugin.php","ver":"1.5.4","sig":"v1:nohash"}
+[04-Jun-2020 19:45:42 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Security Auditor","slug":"wpengine-security-auditor.php","ver":"1.0.9","sig":"v1:nohash"}
+[04-Jun-2020 19:45:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_plugins() in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php:439
+Stack trace:
+#0 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(287): WPEngineSecurityAuditor_Scans->fingerprint_plugins()
+#1 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
+#4 {main}
+  thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[08-Jun-2020 15:48:54 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.5","sig":"v1:nohash"}
+[08-Jun-2020 15:48:54 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"2.3","sig":"v1:nohash"}
+[08-Jun-2020 15:48:54 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.2","sig":"v1:nohash"}
+[08-Jun-2020 20:28:04 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.4.1","sig":"v1:nohash"}
+[08-Jun-2020 20:28:04 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.4.1","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.5","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"2.3","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.2","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.5","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"2.3","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.2","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.4.1","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.4.1","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"Force Strong Passwords - WPE Edition","slug":"slt-force-strong-passwords.php","ver":"1.6.4","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Seamless Login Plugin","slug":"wpe-wp-sign-on-plugin.php","ver":"1.5.4","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Security Auditor","slug":"wpengine-security-auditor.php","ver":"1.0.9","sig":"v1:nohash"}
+[09-Jun-2020 15:39:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_plugins() in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php:439
+Stack trace:
+#0 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(287): WPEngineSecurityAuditor_Scans->fingerprint_plugins()
+#1 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
+#4 {main}
+  thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[09-Jun-2020 15:43:22 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"Force Strong Passwords - WPE Edition","slug":"slt-force-strong-passwords.php","ver":"1.6.4","sig":"v1:nohash"}
+[09-Jun-2020 15:43:22 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Seamless Login Plugin","slug":"wpe-wp-sign-on-plugin.php","ver":"1.5.4","sig":"v1:nohash"}
+[09-Jun-2020 15:43:22 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Security Auditor","slug":"wpengine-security-auditor.php","ver":"1.0.9","sig":"v1:nohash"}
+[09-Jun-2020 15:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_plugins() in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php:439
+Stack trace:
+#0 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(287): WPEngineSecurityAuditor_Scans->fingerprint_plugins()
+#1 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
+#4 {main}
+  thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[09-Jun-2020 15:46:38 UTC] auditor:event=wp_login {"user_id":2,"blog_id":1,"event":"wp_login","current_user_id":0,"remote_addr":"127.0.0.1"}
