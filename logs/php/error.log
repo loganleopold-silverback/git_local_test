@@ -74,3 +74,8 @@ Stack trace:
 #3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
 #4 {main}
   thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[11-Jun-2020 17:53:02 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-includes","slug":"wp-includes","ver":"5.4.1","sig":"v1:nohash"}
+[11-Jun-2020 17:53:02 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"wp-core","name":"wp-admin","slug":"wp-admin","ver":"5.4.1","sig":"v1:nohash"}
+[11-Jun-2020 17:53:02 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Nineteen","slug":"twentynineteen","ver":"1.5","sig":"v1:nohash"}
+[11-Jun-2020 17:53:02 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Seventeen","slug":"twentyseventeen","ver":"2.3","sig":"v1:nohash"}
+[11-Jun-2020 17:53:02 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"theme","name":"Twenty Twenty","slug":"twentytwenty","ver":"1.2","sig":"v1:nohash"}
