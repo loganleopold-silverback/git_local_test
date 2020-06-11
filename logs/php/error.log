@@ -74,3 +74,14 @@ Stack trace:
 #3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
 #4 {main}
   thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
+[11-Jun-2020 17:51:57 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"Force Strong Passwords - WPE Edition","slug":"slt-force-strong-passwords.php","ver":"1.6.4","sig":"v1:nohash"}
+[11-Jun-2020 17:51:57 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Seamless Login Plugin","slug":"wpe-wp-sign-on-plugin.php","ver":"1.5.4","sig":"v1:nohash"}
+[11-Jun-2020 17:51:57 UTC] auditor:scan=fingerprint {"blog_id":1,"kind":"mu-plugin","name":"WP Engine Security Auditor","slug":"wpengine-security-auditor.php","ver":"1.0.9","sig":"v1:nohash"}
+[11-Jun-2020 17:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_plugins() in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php:439
+Stack trace:
+#0 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(287): WPEngineSecurityAuditor_Scans->fingerprint_plugins()
+#1 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-cron.php(138): do_action_ref_array('WPEngineSecurit...', Array)
+#4 {main}
+  thrown in /Users/loganleopold/Local Sites/gitsandbox/app/public/wp-content/mu-plugins/wpengine-security-auditor.php on line 439
