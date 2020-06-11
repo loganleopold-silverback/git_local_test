@@ -32,7 +32,11 @@
 
 		<header id="site-header" class="header-footer-group" role="banner">
 
+<<<<<<< HEAD
 			<h1>TESTING LOCAL + GIT MORE AND MORE</h1>
+=======
+			<!-- <h1>TESTING LOCAL + GIT</h1> -->
+>>>>>>> tester
 			
 			<div class="header-inner section-inner">
 
